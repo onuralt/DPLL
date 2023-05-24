@@ -1,20 +1,4 @@
-# BabySAT DPLL SAT Solver Template
-
-This is a template for a DPLL SAT solver.  It does not work yet.
-Your task is to first change the LICENSE and add your name there
-and in addition get it working.
-
-For that you need to implement are the following:
-
- - assigning literals (`assign`)
- - figuring out when your formula is satisfied (`satisfied`)
- - propagation of literals (`propagate`)
- - variable section heuristics (`decide`)
- - unassigning literals (`unassign`)
- - backtracking (`backtrack`)
- - the DPLL code (`dpll`)
-
-Afterwards remove this text.
+# BabySAT DPLL SAT Solver
 
 To compile run `./configure && make` for optimized compilation and
 `./configure --debug && make` if you want to include symbols and disable
